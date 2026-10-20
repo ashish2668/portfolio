@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ashish Kashyap's portfolio — learning Python, comfortable reading C and C++, and working toward full-stack and AI development."
+    />
+    <meta name="theme-color" content="#090b12" />
+    <title>Ashish Kashyap | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-glow page-glow--top" aria-hidden="true"></div>
+    <div class="page-glow page-glow--bottom" aria-hidden="true"></div>
+
+    <section class="opening-sequence" id="intro" aria-label="Portfolio introduction">
+      <div class="opening-screen">
+        <div class="opening-grid" aria-hidden="true"></div>
+        <div class="opening-title">
+          <h1>Ashish Kashyap</h1>
+          <p>PORTFOLIO</p>
+        </div>
+        <div class="opening-control">
+          <button class="opening-mouse" type="button" aria-label="Click the computer mouse to enter the portfolio">
+            <svg viewBox="0 0 112 156" aria-hidden="true" focusable="false">
+              <path class="opening-mouse__body" d="M56 7C28 7 10 27 10 58v40c0 30 19 51 46 51s46-21 46-51V58C102 27 84 7 56 7Z" />
+              <path class="opening-mouse__left" d="M56 8v51H11V58C11 27 28 8 56 8Z" />
+              <path class="opening-mouse__right" d="M56 8c28 0 45 19 45 50v1H56V8Z" />
+              <path class="opening-mouse__seam" d="M56 9v51" />
+              <rect class="opening-mouse__wheel" x="51" y="28" width="10" height="20" rx="5" />
+              <path class="opening-mouse__glint" d="M23 68v27" />
+            </svg>
+          </button>
+          <p class="opening-control__label">CLICK THE MOUSE TO ENTER</p>
+        </div>
+        <p class="opening-scroll">SCROLLING IS LOCKED UNTIL YOU CLICK</p>
+      </div>
+    </section>
+
+    <header class="site-header">
+      <a class="brand" href="#intro" aria-label="Ashish Kashyap, home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>Ashish Kashyap<span class="brand-dot">.</span></span>
+      </a>
+
+      <p class="header-greeting">JAI SHREE RAM</p> <!-- test update-->
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Open navigation"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+        <button class="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true">☼</span>
+          <span class="theme-label">Light mode</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> CURIOUS MIND · FUTURE DEVELOPER</p>
+          <h1>Learning today.<br />Building <span>what’s next.</span></h1>
+          <p class="hero-intro">
+            Hi, I’m <strong>Ashish</strong> — a curious learner exploring programming and working
+            toward a future in full-stack and AI development.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          </div>
+          <div class="hero-note">
+            <span class="note-line" aria-hidden="true"></span>
+            <span>Currently learning <strong>Python</strong></span>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-label="Three 3D monitors displaying code, skills, and project information." role="img">
+          <div class="monitor-scene">
+            <div class="monitor-array">
+              <div class="monitor-device monitor-device--side monitor-device--left" aria-hidden="true">
+                <div class="monitor-bezel">
+                  <div class="monitor-screen">
+                  <div class="monitor-toolbar">
+                    <span></span><span></span><span></span>
+                    <b>skills.panel</b>
+                  </div>
+                  <div class="monitor-mini-panel">
+                    <span class="monitor-mini-label">CURRENT TOOLKIT</span>
+                    <span class="monitor-mini-chip">C++</span>
+                    <span class="monitor-mini-chip">Python</span>
+                    <span class="monitor-mini-chip">Web</span>
+                    <span class="monitor-mini-line"></span>
+                    <span class="monitor-mini-line monitor-mini-line--short"></span>
+                  </div>
+                  <div class="monitor-status"><span>● LEARNING</span><span>03 SKILLS</span></div>
+                  </div>
+                  <div class="monitor-chin"><span class="monitor-mark">AK</span></div>
+                </div>
+              </div>
+
+              <div class="monitor-device monitor-device--main">
+                <div class="monitor-bezel">
+                  <div class="monitor-screen">
+                  <div class="monitor-toolbar">
+                    <span></span><span></span><span></span>
+                    <b>ashish.dev / portfolio</b>
+                  </div>
+                  <div class="monitor-editor">
+                    <div class="monitor-gutter" aria-hidden="true">01<br />02<br />03<br />04<br />05<br />06</div>
+                    <code><span class="monitor-code--purple">const</span> developer = <span class="monitor-code--mint">"Ashish"</span>;<br />
+                      <span class="monitor-code--purple">const</span> skills = [<span class="monitor-code--blue">"C++"</span>,<br />
+                      &nbsp;&nbsp;<span class="monitor-code--blue">"Python"</span>, <span class="monitor-code--blue">"Web"</span>];<br />
+                      <span class="monitor-code--purple">function</span> <span class="monitor-code--yellow">buildFuture</span>() {<br />
+                      &nbsp;&nbsp;<span class="monitor-code--mint">learn</span>();<br />
+                      &nbsp;&nbsp;<span class="monitor-code--mint">create</span>();<br />
+                      }</code>
+                  </div>
+                  <div class="monitor-status"><span>● ONLINE</span><span>READY TO BUILD</span></div>
+                  </div>
+                </div>
+                <div class="monitor-chin"><span class="monitor-mark">AK</span><span class="monitor-power"></span></div>
+              </div>
+
+              <div class="monitor-device monitor-device--side monitor-device--right" aria-hidden="true">
+                <div class="monitor-bezel">
+                  <div class="monitor-screen">
+                  <div class="monitor-toolbar">
+                    <span></span><span></span><span></span>
+                    <b>build.log</b>
+                  </div>
+                  <div class="monitor-mini-panel monitor-mini-panel--build">
+                    <span class="monitor-mini-label">PROJECT STATUS</span>
+                    <span class="monitor-build-value">01 <small>PROJECT</small></span>
+                    <span class="monitor-mini-line"></span>
+                    <span class="monitor-mini-line monitor-mini-line--short"></span>
+                    <span class="monitor-build-ready"><span></span> READY TO BUILD</span>
+                  </div>
+                  <div class="monitor-status"><span>● ACTIVE</span><span>V1.0</span></div>
+                  </div>
+                  <div class="monitor-chin"><span class="monitor-mark">AK</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="monitor-stand" aria-hidden="true"></div>
+            <div class="monitor-base" aria-hidden="true"></div>
+          </div>
+          <span class="hero-art-hint" aria-hidden="true">DRAG TO MOVE</span>
+          <p class="monitor-caption"><span>01</span> A mind in build mode</p>
+        </div>
+
+        <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="content-section section-shell about-section" id="about">
+        <div class="about-copy">
+          <div class="section-heading">
+            <p class="eyebrow"><span class="section-code-mark" aria-hidden="true">&lt;/&gt;</span>A BIT ABOUT ME</p>
+            <h2>Every expert was<br />once a <span>beginner.</span></h2>
+          </div>
+          <div class="about-content">
+            <p>
+              I’m building a strong foundation in software development, with a growing
+              understanding of C and C++ and a current focus on Python.
+            </p>
+            <p>
+              My goal is to become a full-stack and AI developer. This portfolio is my first
+              project, and I’ll keep adding to it as I learn and build.
+            </p>
+            <div class="about-stats">
+              <div><span class="stat-number">03</span><span class="stat-label">Languages I’m exploring</span></div>
+              <div><span class="stat-number">∞</span><span class="stat-label">Things left to learn</span></div>
+            </div>
+          </div>
+        </div>
+        <aside class="about-focus" aria-label="Current learning focus">
+          <div class="about-focus__header">
+            <span class="about-focus__icon" aria-hidden="true">&lt;/&gt;</span>
+            <div>
+              <p class="about-focus__eyebrow">CURRENTLY FOCUSED ON</p>
+              <h3>Learning &amp; building</h3>
+            </div>
+            <span class="about-focus__signal" aria-label="Active"></span>
+          </div>
+          <div class="about-focus__items">
+            <div class="about-focus__item">
+              <span class="about-focus__index">01</span>
+              <div><span class="about-focus__label">STUDYING</span><strong>MCA at MIET</strong></div>
+              <span class="about-focus__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="about-focus__item">
+              <span class="about-focus__index">02</span>
+              <div><span class="about-focus__label">LEARNING</span><strong>Python</strong></div>
+              <span class="about-focus__arrow" aria-hidden="true">↗</span>
+            </div>
+            <div class="about-focus__item">
+              <span class="about-focus__index">03</span>
+              <div><span class="about-focus__label">WORKING TOWARD</span><strong>Full-stack &amp; AI development</strong></div>
+              <span class="about-focus__arrow" aria-hidden="true">↗</span>
+            </div>
+          </div>
+          <p class="about-focus__footer"><span aria-hidden="true">✦</span> Curious by nature. Building step by step.</p>
+        </aside>
+      </section>
+
+      <section class="content-section education-section section-shell" id="education">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="section-code-mark" aria-hidden="true">EDU</span>ACADEMIC JOURNEY</p>
+          <h2>Building my<br /><span>future in tech.</span></h2>
+          <p class="section-description">A strong foundation, with more to learn and build along the way.</p>
+        </div>
+        <div class="education-grid">
+          <article class="education-card">
+            <div class="education-card__meta">
+              <span class="education-card__number" aria-hidden="true">01</span>
+              <span class="education-card__status">COMPLETED</span>
+            </div>
+            <p class="education-card__years">2022–2025</p>
+            <h3>Bachelor of Computer Applications</h3>
+            <div class="education-card__footer"><span>BCA</span><span>MIT</span></div>
+          </article>
+          <article class="education-card">
+            <div class="education-card__meta">
+              <span class="education-card__number" aria-hidden="true">02</span>
+              <span class="education-card__status education-card__status--current">IN PROGRESS</span>
+            </div>
+            <p class="education-card__years">2026–2028</p>
+            <h3>Master of Computer Applications</h3>
+            <div class="education-card__footer"><span>MCA</span><span>MIET</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section skills-section section-shell" id="skills">
+        <div class="section-heading">
+          <p class="eyebrow"><span class="section-code-mark" aria-hidden="true">{ }</span>MY STARTING TOOLKIT</p>
+          <h2>Skills I’m <span>growing.</span></h2>
+          <p class="section-description">What I know so far, what I’m learning, and where I want to go.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <span class="skill-number">01</span>
+            <span class="skill-icon skill-icon--c" aria-hidden="true">C/C++</span>
+            <h3>C &amp; C++</h3>
+            <p>Comfortable reading and understanding most C and C++ code.</p>
+            <span class="skill-tag">COMFORTABLE READING</span>
+          </article>
+          <article class="skill-card skill-card--featured">
+            <span class="skill-number">02</span>
+            <span class="skill-icon skill-icon--python" aria-hidden="true">Py</span>
+            <h3>Python</h3>
+            <p>Currently learning Python and building my programming fundamentals.</p>
+            <span class="skill-tag">CURRENTLY LEARNING</span>
+          </article>
+          <article class="skill-card skill-card--next">
+            <span class="skill-number">03</span>
+            <span class="skill-icon skill-icon--next" aria-hidden="true">✳</span>
+            <h3>Full-stack + AI</h3>
+            <p>My long-term goal is to become a full-stack developer and work with AI.</p>
+            <span class="skill-tag">FUTURE GOAL</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section projects-section section-shell" id="projects">
+        <div class="section-heading section-heading--row">
+          <div>
+            <p class="eyebrow"><span class="section-code-mark" aria-hidden="true">[ ]</span>MY FIRST BUILD</p>
+            <h2>My <span>project.</span></h2>
+          </div>
+          <p class="section-description">The beginning of my portfolio — and the first project I’ve created.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card project-card--featured">
+            <div class="project-visual">
+              <div class="visual-terminal">
+                <div class="terminal-bar"><i></i><i></i><i></i><span>portfolio.html</span></div>
+                <div class="terminal-code">
+                  <span class="code-muted">01</span> <b>&lt;section</b> class=<strong>"hero"</strong>&gt;<br />
+                  <span class="code-muted">02</span> &nbsp;&nbsp;&lt;h1&gt;Learning today&lt;/h1&gt;<br />
+                  <span class="code-muted">03</span> &nbsp;&nbsp;&lt;span&gt;Building what’s next&lt;/span&gt;<br />
+                  <span class="code-muted">04</span> &lt;/section&gt;
+                </div>
+              </div>
+              <span class="visual-orb" aria-hidden="true"></span>
+            </div>
+            <div class="project-info">
+              <div class="project-meta"><span>FIRST PROJECT</span><span>HTML · CSS · JS</span></div>
+              <h3>3D Portfolio Website</h3>
+              <p>My first project: a personal portfolio with animated 3D visuals, glowing details, and a light/dark theme.</p>
+              <span class="project-link">A first step in my journey <span aria-hidden="true">✦</span></span>
+            </div>
+          </article>
+        </div>
+        <p class="projects-footnote"><span aria-hidden="true">✦</span> More projects will appear here as I keep learning and building.</p>
+      </section>
+
+      <section class="contact-section section-shell" id="contact">
+        <div class="contact-card">
+          <div class="contact-decoration" aria-hidden="true"><span></span><span></span><span></span></div>
+          <p class="eyebrow">SAY HELLO</p>
+          <h2>Good things start<br />with a <span>conversation.</span></h2>
+          <p class="contact-copy">Have an idea, a tip, or just want to connect? I’d love to hear from you.</p>
+          <div class="contact-actions">
+            <a class="button button-primary contact-button" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=aashishkashyap2222@gmail.com">
+              Email<span aria-hidden="true">↗</span>
+            </a>
+            <a
+              class="button contact-button contact-button--secondary"
+              href="https://www.linkedin.com/in/ashish-kashyap-803699252/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn <span aria-hidden="true">↗</span>
+            </a>
+          </div>
+          <p class="contact-email">aashishkashyap2222@gmail.com</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="brand footer-brand" href="#intro" aria-label="Ashish, back to home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>Ashish Kashyap<span class="brand-dot">.</span></span>
+      </a>
+      <p>Made with curiosity <span aria-hidden="true">✳</span> and a lot to learn.</p>
+      <a class="back-to-top" href="#intro">BACK TO TOP ↑</a>
+    </footer>
+  </body>
+</html>
